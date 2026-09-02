@@ -24,5 +24,9 @@
 
 /* Temporaire - Pour tester une variable définie dans les settings */
 h1 {
-  color: var(--couleur-principale);
+    color: var(--couleur-principale);
+}
+h3 {
+    font-size: 1.25rem;
+    color: white;
 }
