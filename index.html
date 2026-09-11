@@ -9,242 +9,271 @@
     </head>
     <body>
         <header>
-            <p class="titre du site">Foulée</p>
-            <nav class="nav-menu" aria-label="Navigation principale">
-                <button class="nav-menu__toggle" aria-expanded="false" aria-controls="nav-menu-list" aria-label="ouvrir le menu de navigation">
-                    <span class="nav-menu__hamburger-icon" aria-hidden="true"></span>
-                    <span class="nav-menu__libelle">Menu</span>
-                </button>
-                <ul id="nav-menu-list" class="nav-menu__list">
-                    <li class="nav-menu__item">
-                        <a href="#home" class="nav-menu__link">Accueil</a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#hommes" class="nav-menu__link">Hommes</a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#femmes" class="nav-menu__link">Femmes</a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#enfants" class="nav-menu__link">Enfants</a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#sport" class="nav-menu__link">Sport</a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#personnaliser" class="nav-menu__link">Personnaliser</a>
-                    </li>
-                    <li class="nav-menu__item">
-                        <a href="#foulee" class="nav-menu__link">Foulée+</a>
-                    </li>
-                </ul>
-                <p class="barre_recherche">rechercher</p>
-            </nav>
-            <h1 class="titre_de_catégorie">Chaussure</h1>
-            <li class="classification">Tout</li>
-            <li class="classification">Hommes</li>
-            <li class="classification">femmes</li>
-            <li class="classification">Enfants</li>
-            <p class="masquer">masquer les filtres</p>
-            <p class="trier">Trier Par</p>
+            <div class="contenu_nav">
+                <p class="titre du site">Foulée</p>
+                <nav class="nav-menu" aria-label="Navigation principale">
+                    <button class="nav-menu__toggle" aria-expanded="false" aria-controls="nav-menu-list" aria-label="ouvrir le menu de navigation">
+                        <span class="nav-menu__hamburger-icon" aria-hidden="true"></span>
+                        <span class="nav-menu__libelle">Menu</span>
+                    </button>
+                    <ul id="nav-menu-list" class="nav-menu__list">
+                        <li class="nav-menu__item">
+                            <a href="#home" class="nav-menu__link">Accueil</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="#hommes" class="nav-menu__link">Hommes</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="#femmes" class="nav-menu__link">Femmes</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="#enfants" class="nav-menu__link">Enfants</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="#sport" class="nav-menu__link">Sport</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="#personnaliser" class="nav-menu__link">Personnaliser</a>
+                        </li>
+                        <li class="nav-menu__item">
+                            <a href="#foulee" class="nav-menu__link">Foulée+</a>
+                        </li>
+                    </ul>
+                    <form action="index.html" method="get" role="search" class="barre_recherche">
+                        <label for="recherche-principale" class="sr-only">Rechercher sur le site</label>
+                        <input type="search" id="recherche-principale" name="q" placeholder="Rechercher..." class="barre-recherche_champ" />
+                        <button type="submit" class="barre-recherche_bouton" aria-label="Lancer la recherche">
+                            <img src="Panier.png" alt="" />
+                        </button>
+                    </form>
+                </nav>
+            </div>
+            <ol>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Chaussures</a></li>
+            </ol>
         </header>
         <main>
-            <p class="filtre-sport">
-                Sport
-                <li class="Sport"><input id="sport1" type="checkbox" /><label for="sport1">Course</label></li>
-                <li class="sport"><input id="sport2" type="checkbox" /><label for="sport2">Basketball</label></li>
-                <li class="sport"><input id="sport3" type="checkbox" /><label for="sport3">Football</label></li>
-                <li class="sport"><input id="sport4" type="checkbox" /><label for="sport4">Training</label></li>
-                <li class="sport"><input id="sport5" type="checkbox" /><label for="sport5">Lifestyle</label></li>
-            </p>
-            <p class="filtre-prix">
-                Prix
-                <li class="prix"><input id="Prix1" type="checkbox" /><label for="Prix1">Moins de 80$</label></li>
-                <li class="prix"><input id="Prix2" type="checkbox" /><label for="Prix2"></label>80$-120$</li>
-                <li class="prix"><input id="Prix3" type="checkbox" /><label for="Prix3">120$-180$</label></li>
-                <li class="prix"><input id="Prix4" type="checkbox" /><label for="Prix4">plus de 180$</label></li>
-            </p>
-            <p class="filtre-couleur">
-                Couleur
-                <li class="couleur"><input id="Couleur1" type="checkbox" /><label for="Couleur1">Blanc</label></li>
-                <li class="couleur"><input id="Couleur2" type="checkbox" /><label for="Couleur2">Noir</label></li>
-                <li class="couleur"><input id="Couleur3" type="checkbox" /><label for="Couleur3">Rouge</label></li>
-                <li class="couleur"><input id="Couleur4" type="checkbox" /><label for="Couleur4">Bleu</label></li>
-                <li class="couleur"><input id="Couleur5" type="checkbox" /><label for="Couleur5">Jaune</label></li>
-                <li class="couleur"><input id="Couleur6" type="checkbox" /><label for="Couleur6">Gris</label></li>
-            </p>
-            <p class="filtre-pointure">
-                Pointure
-                <li class="pointure"><input id="Taille1" type="checkbox" /><label for="Taille1">36</label></li>
-                <li class="pointure"><input id="Taille2" type="checkbox" /><label for="Taille2">37</label></li>
-                <li class="pointure"><input id="Taille3" type="checkbox" /><label for="Taille3">38</label></li>
-                <li class="pointure"><input id="Taille4" type="checkbox" /><label for="Taille4">39</label></li>
-                <li class="pointure"><input id="Taille5" type="checkbox" /><label for="Taille5">40</label></li>
-                <li class="pointure"><input id="Taille6" type="checkbox" /><label for="Taille6">41</label></li>
-                <li class="pointure"><input id="Taille7" type="checkbox" /><label for="Taille7">42</label></li>
-                <li class="pointure"><input id="Taille8" type="checkbox" /><label for="Taille8">43</label></li>
-                <li class="pointure"><input id="Taille9" type="checkbox" /><label for="Taille9">44</label></li>
-                <li class="pointure"><input id="Taille10" type="checkbox" /><label for="Taille10">45</label></li>
-            </p>
-            <br />
-            <div class="tuile_1">
-                <p class="nouveau">NOUVEAU</p>
-                <picture>
-                    <source />
+            <h1 class="titre_de_catégorie">Chaussures</h1>
+            <p class="produit">12 Produits</p>
+            <ul class="filtre">
+                <li class="classification"><button class="categorie" value="tous">Tous</button></li>
+
+                <li class="classification"><button class="categorie" value="homme">HOMMES</button></li>
+
+                <li class="classification"><button class="categorie" value="femme">FEMMES</button></li>
+
+                <li class="classification"><button class="categorie" value="enfant">ENFANTS</button></li>
+            </ul>
+
+            <button class="masquer" value="masquer les filtres">masquer les filtres</button>
+
+            <label for="triage" class="trier">Trier Par</label>
+            <select name="triage" id="triage">
+                <option value="nouveaute">Nouveautés</option>
+                <option value="a-z">A-Z</option>
+                <option value="populaire">Meilleurs vendeur</option>
+            </select>
+
+            <ul>
+                <li>
+                    Sport
+                    <ul class="filtre-sport">
+                        <li class="Sport"><input id="sport1" type="checkbox" /><label for="sport1">Course</label></li>
+                        <li class="sport"><input id="sport2" type="checkbox" /><label for="sport2">Basketball</label></li>
+                        <li class="sport"><input id="sport3" type="checkbox" /><label for="sport3">Football</label></li>
+                        <li class="sport"><input id="sport4" type="checkbox" /><label for="sport4">Training</label></li>
+                        <li class="sport"><input id="sport5" type="checkbox" /><label for="sport5">Lifestyle</label></li>
+                    </ul>
+                </li>
+                <li>
+                    Prix
+                    <ul class="filtre-prix">
+                        <li class="prix"><input id="Prix1" type="checkbox" /><label for="Prix1">Moins de 80$</label></li>
+                        <li class="prix"><input id="Prix2" type="checkbox" /><label for="Prix2"></label>80$-120$</li>
+                        <li class="prix"><input id="Prix3" type="checkbox" /><label for="Prix3">120$-180$</label></li>
+                        <li class="prix"><input id="Prix4" type="checkbox" /><label for="Prix4">plus de 180$</label></li>
+                    </ul>
+                </li>
+                <li>
+                    Couleur
+                    <ul class="filtre-couleur">
+                        <li class="couleur"><input id="Couleur1" type="checkbox" /><label for="Couleur1">Blanc</label></li>
+                        <li class="couleur"><input id="Couleur2" type="checkbox" /><label for="Couleur2">Noir</label></li>
+                        <li class="couleur"><input id="Couleur3" type="checkbox" /><label for="Couleur3">Rouge</label></li>
+                        <li class="couleur"><input id="Couleur4" type="checkbox" /><label for="Couleur4">Bleu</label></li>
+                        <li class="couleur"><input id="Couleur5" type="checkbox" /><label for="Couleur5">Jaune</label></li>
+                        <li class="couleur"><input id="Couleur6" type="checkbox" /><label for="Couleur6">Gris</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="filtre-pointure">
+                        Pointure
+                        <li class="pointure"><input id="Taille1" type="checkbox" /><label for="Taille1">36</label></li>
+                        <li class="pointure"><input id="Taille2" type="checkbox" /><label for="Taille2">37</label></li>
+                        <li class="pointure"><input id="Taille3" type="checkbox" /><label for="Taille3">38</label></li>
+                        <li class="pointure"><input id="Taille4" type="checkbox" /><label for="Taille4">39</label></li>
+                        <li class="pointure"><input id="Taille5" type="checkbox" /><label for="Taille5">40</label></li>
+                        <li class="pointure"><input id="Taille6" type="checkbox" /><label for="Taille6">41</label></li>
+                        <li class="pointure"><input id="Taille7" type="checkbox" /><label for="Taille7">42</label></li>
+                        <li class="pointure"><input id="Taille8" type="checkbox" /><label for="Taille8">43</label></li>
+                        <li class="pointure"><input id="Taille9" type="checkbox" /><label for="Taille9">44</label></li>
+                        <li class="pointure"><input id="Taille10" type="checkbox" /><label for="Taille10">45</label></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li class="tuile">
+                    <p class="nouveau">NOUVEAU</p>
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_men">Hommes</p>
-                <p class="nom_chaussure">AIR FORCE FLYKNIT</p>
-                <p class="nb_couleurs">3 couleurs</p>
-                <p class="prix_soulier">$ 129,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <picture>
-                    <source />
+                    <p class="genre_men">Hommes</p>
+                    <h2 class="nom_chaussure">AIR FORCE FLYKNIT</h2>
+                    <p class="nb_couleurs">3 couleurs</p>
+                    <p class="prix_soulier">$ 129,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_wom">Femmes</p>
-                <p class="nom_chaussure">AIR FORCE MID LEATHER</p>
-                <p class="nb_couleurs">4 couleurs</p>
-                <p class="prix_soulier">$ 109,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <picture>
-                    <source />
+                    <p class="genre_wom">Femmes</p>
+                    <h2 class="nom_chaussure">AIR FORCE MID LEATHER</h2>
+                    <p class="nb_couleurs">4 couleurs</p>
+                    <p class="prix_soulier">$ 109,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_men">Hommes</p>
-                <p class="nom_chaussure">AIR FORCE FLYKNIT</p>
-                <p class="nb_couleurs">3 couleurs</p>
-                <p class="prix_soulier">$ 129,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-            </div>
-            <div class="tuile_2">
-                <picture>
-                    <source />
+                    <p class="genre_men">Hommes</p>
+                    <h2 class="nom_chaussure">AIR FORCE FLYKNIT</h2>
+                    <p class="nb_couleurs">3 couleurs</p>
+                    <p class="prix_soulier">$ 129,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_men">Hommes</p>
-                <p class="nom_chaussure">AIR VORTEX</p>
-                <p class="nb_couleurs">3 couleurs</p>
-                <p class="prix_soulier">$ 99,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <picture>
-                    <source />
+                    <p class="genre_men">Hommes</p>
+                    <h2 class="nom_chaussure">AIR VORTEX</h2>
+                    <p class="nb_couleurs">3 couleurs</p>
+                    <p class="prix_soulier">$ 99,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_men">Hommes</p>
-                <p class="nom_chaussure">COURT BOROUGH MID</p>
-                <p class="nb_couleurs">4 couleurs</p>
-                <p class="prix_soulier">$ 79,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <p class="nouveau">NOUVEAU</p>
-                <picture>
-                    <source />
+                    <p class="genre_men">Hommes</p>
+                    <h2 class="nom_chaussure">COURT BOROUGH MID</h2>
+                    <p class="nb_couleurs">4 couleurs</p>
+                    <p class="prix_soulier">$ 79,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
+                    <p class="nouveau">NOUVEAU</p>
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_wom">FEMMES</p>
-                <p class="nom_chaussure">CLASSIC CORTEZ BYLON B</p>
-                <p class="nb_couleurs">2 couleurs</p>
-                <p class="prix_soulier">$ 89,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-            </div>
-            <div class="tuile_3">
-                <p class="nouveau">NOUVEAU</p>
-                <picture>
-                    <source />
+                    <p class="genre_wom">FEMMES</p>
+                    <h2 class="nom_chaussure">CLASSIC CORTEZ BYLON B</h2>
+                    <p class="nb_couleurs">2 couleurs</p>
+                    <p class="prix_soulier">$ 89,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
+                    <p class="nouveau">NOUVEAU</p>
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_men">Hommes</p>
-                <p class="nom_chaussure">AIR MAX ULTRA MOIRE</p>
-                <p class="nb_couleurs">4 couleurs</p>
-                <p class="prix_soulier">$ 149,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <picture>
-                    <source />
+
+                    <p class="genre_men">Hommes</p>
+                    <h2 class="nom_chaussure">AIR MAX ULTRA MOIRE</h2>
+                    <p class="nb_couleurs">4 couleurs</p>
+                    <p class="prix_soulier">$ 149,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_wom">FEMMES</p>
-                <p class="nom_chaussure">AIR MAX ZERO</p>
-                <p class="nb_couleurs">6 couleurs</p>
-                <p class="prix_soulier">$ 119,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <p class="nouveau">NOUVEAU</p>
-                <picture>
-                    <source />
+                    <p class="genre_wom">FEMMES</p>
+                    <h2 class="nom_chaussure">AIR MAX ZERO</h2>
+                    <p class="nb_couleurs">6 couleurs</p>
+                    <p class="prix_soulier">$ 119,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
+                    <p class="nouveau">NOUVEAU</p>
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_wom">FEMMES</p>
-                <p class="nom_chaussure">BLAZER LOW XL</p>
-                <p class="nb_couleurs">3 couleurs</p>
-                <p class="prix_soulier">$ 109,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-            </div>
-            <div class="tuile_4">
-                <picture>
-                    <source />
+                    <p class="genre_wom">FEMMES</p>
+                    <h2 class="nom_chaussure">BLAZER LOW XL</h2>
+                    <p class="nb_couleurs">3 couleurs</p>
+                    <p class="prix_soulier">$ 109,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_men">Hommes</p>
-                <p class="nom_chaussure">AIR FOECE MID LEATHER</p>
-                <p class="nb_couleurs">5 couleurs</p>
-                <p class="prix_soulier">$ 99,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <picture>
-                    <source />
+                    <p class="genre_men">Hommes</p>
+                    <h2 class="nom_chaussure">AIR FOECE MID LEATHER</h2>
+                    <p class="nb_couleurs">5 couleurs</p>
+                    <p class="prix_soulier">$ 99,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_wom">FEMMES</p>
-                <p class="nom_chaussure">FLEX SUPREME TR 5B</p>
-                <p class="nb_couleurs">3 couleurs</p>
-                <p class="prix_soulier">$ 89,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-                <p class="nouveau">NOUVEAU</p>
-                <picture>
-                    <source />
+                    <p class="genre_wom">FEMMES</p>
+                    <h2 class="nom_chaussure">FLEX SUPREME TR 5B</h2>
+                    <p class="nb_couleurs">3 couleurs</p>
+                    <p class="prix_soulier">$ 89,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+                <li class="tuile">
+                    <p class="nouveau">NOUVEAU</p>
                     <img src="" alt="" />
-                </picture>
-                <p class="genre_wom">FEMMES</p>
-                <p class="nom_chaussure">LUNAR CHARGE ESSENTIAL</p>
-                <p class="nb_couleurs">4 couleurs</p>
-                <p class="prix_soulier">$ 119,99</p>
-                <button class="btn_ajout-panier">
-                    <p>AJOUTER AU PANIER</p>
-                </button>
-            </div>
+                    <p class="genre_wom">FEMMES</p>
+                    <h2 class="nom_chaussure">LUNAR CHARGE ESSENTIAL</h2>
+                    <p class="nb_couleurs">4 couleurs</p>
+                    <p class="prix_soulier">$ 119,99</p>
+                    <button class="btn_ajout-panier">
+                        <p>AJOUTER AU PANIER</p>
+                    </button>
+                </li>
+            </ul>
         </main>
-        <footer>
-            <p class="nom-footer">Foulee</p>
-            <p class="texte_copyright1">©2017 Foulée</p>
-            <p class="texte_copyright2">Tous droits réservé 2017</p>
-            <li class="nav_footer">ACCUEIL</li>
-            <li class="nav_footer">A PROPOS</li>
-            <li class="nav_footer">SUPPORT</li>
-            <li class="nav_footer">CONTACT</li>
-            <p class="texte_description">
-                Foulée est une boutique spécialisé dans la vente de chaussures de sport et de lifestyle.Nous<br />offrons une sélection soigneusement
-                choisie pour hommes,femmes et enfants.
-            </p>
+        <footer class="piedpage">
+            <div class="copyright">
+                <p class="nom-footer">Foulee</p>
+                <p class="texte_copyright1">©2017 Foulée</p>
+                <p class="texte_copyright2">Tous droits réservé 2017</p>
+            </div>
+            <div class="nav_footer">
+                <ul class="piedPage__liste">
+                    <li class="piedPage__item">ACCUEIL</li>
+                    <li class="piedPage__item">A PROPOS</li>
+                    <li class="piedPage__item">SUPPORT</li>
+                    <li class="piedPage__item">CONTACT</li>
+                </ul>
+                <p class="texte_description">
+                    Foulée est une boutique spécialisé dans la vente de chaussures de sport et de lifestyle.Nous<br />offrons une sélection
+                    soigneusement choisie pour hommes,femmes et enfants.
+                </p>
+            </div>
+            <ul class="reseau">
+                <li class="x"><img src="X.png" alt="" /></li>
+                <li class="facebook"><img src="Facebook.png" alt="" /></li>
+                <li class="dribble"><img src="Dribble.png" alt="" /></li>
+            </ul>
         </footer>
     </body>
 </html>

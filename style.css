@@ -23,29 +23,21 @@
 /* @import url("css/components/modale.css") layer(components); */
 
 /* Temporaire - Pour tester une variable définie dans les settings */
-h1 {
-    color: var(--couleur-principale);
-}
-.titre_de_catégorie {
-    color: black;
-    font-size: 55px;
-}
-.barre_recherche {
-    color: white;
-}
 
-.genre_wom {
-    color: rgb(16, 150, 211);
-}
-.genre_men {
-    color: rgb(16, 150, 211);
-}
+/* ficher css des typo / */
+@import url("typo.css");
 
-.nb_couleurs {
-    color: rgb(178, 185, 195);
-}
+/* ficher css des couleurs de la page / */
+@import url("css/base/base.css");
 
-footer {
-    background-color: black;
-    color: white;
-}
+/* ficher css des filtres de la page / */
+@import url("css/components/filtre.css");
+
+/* ficher css des tuile de produits / */
+@import url("css/components/tuile.css");
+
+/* ficher css de l'entete de la page / */
+@import url("css/components/entete.css");
+
+/* ficher css du footer de la page/ */
+@import url("css/components/footer.css");
