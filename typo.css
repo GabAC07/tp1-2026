@@ -12,3 +12,102 @@ h1 {
     font-size: 3.438rem;
     text-transform: uppercase;
 }
+.categorie {
+    color: #000;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 0.813rem;
+    text-transform: uppercase;
+}
+.titre_site {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+.nav-menu__item {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 0.813rem;
+}
+.filtre_cat {
+    color: #000;
+    font-family: "Barlow", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+footer {
+    font-family: "Barlow", sans-serif;
+}
+
+.texte_description {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400rem;
+    font-size: 0.75;
+}
+
+.nav_footer {
+    font-family: "Barlow", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.texte_copyright1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.texte_copyright2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 0.625rem;
+}
+
+.nom-footer {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.genre_wom {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.genre_men {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.nom_chaussure {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 1.125;
+}
+
+.nb_couleurs {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 0.813rem;
+}
+
+.prix_soulier {
+    font-family: "Barlow", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.btn_ajout-panier {
+    font-family: "Barlow", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.nouveau {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+}

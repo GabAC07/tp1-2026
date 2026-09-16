@@ -1,0 +1,28 @@
+ol {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 9px;
+}
+
+.barre-recherche_bouton {
+    background: none;
+    border: none;
+}
+
+.icone_panier{
+    margin-bottom: -3px;
+}
+
+.titre_site {
+    align-items: start;
+    position: relative;
+}
+
+.filtre {
+    list-style: none;
+}
+
+.triage {
+    align-items: flex-end;
+}
