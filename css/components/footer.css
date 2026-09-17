@@ -1,0 +1,47 @@
+.piedpage__liste {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-left: 260px;
+    position: absolute;
+    bottom: 70px;
+}
+
+.reseau {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    position: absolute;
+    bottom: 70px;
+    left: 900px;
+}
+
+.texte_description {
+    display: flex;
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+.nom-footer {
+   position: relative;
+  left: 100px;
+  top: 35px;
+}
+
+.texte_copyright1 {
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.texte_copyright2 {
+    position: absolute;
+    top: 85px;
+    left: 100px;
+}
+
+footer {
+    position: relative;
+}

@@ -53,7 +53,7 @@
             </ol>
         </header>
         <main>
-            <h1 class="titre_de_catégorie">Chaussures</h1>
+            <h1 class="titre_categorie">Chaussures</h1>
             <p class="produit">12 Produits</p>
             <ul class="filtre">
                 <li class="classification"><button class="categorie" value="tous">tous</button></li>
@@ -70,7 +70,7 @@
             </button>
 
             <label for="triage" class="trier">Trier Par</label>
-            <select name="triage" id="triage">
+            <select class="trier_par" name="triage" id="triage">
                 <option value="nouveaute">Nouveautés</option>
                 <option value="a-z">A-Z</option>
                 <option value="populaire">Meilleurs vendeur</option>
@@ -267,8 +267,13 @@
                 <p class="texte_copyright1">©2017 Foulée</p>
                 <p class="texte_copyright2">Tous droits réservé 2017</p>
             </div>
+                    <ul class="reseau">
+                <li class="x"><img src="X.png" alt="" /></li>
+                <li class="facebook"><img src="Facebook.png" alt="" /></li>
+                <li class="dribble"><img src="Dribble.png" alt="" /></li>
+            </ul>
             <div class="nav_footer">
-                <ul class="piedPage__liste">
+                <ul class="piedpage__liste">
                     <li class="piedPage__item">ACCUEIL</li>
                     <li class="piedPage__item">A PROPOS</li>
                     <li class="piedPage__item">SUPPORT</li>
@@ -279,11 +284,6 @@
                     soigneusement choisie pour hommes,femmes et enfants.
                 </p>
             </div>
-            <ul class="reseau">
-                <li class="x"><img src="X.png" alt="" /></li>
-                <li class="facebook"><img src="Facebook.png" alt="" /></li>
-                <li class="dribble"><img src="Dribble.png" alt="" /></li>
-            </ul>
         </footer>
         <script>
             var toggleBtn = document.getElementById("btn-toggle-form");

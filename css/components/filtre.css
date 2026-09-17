@@ -1,0 +1,48 @@
+@import url("/index.html");
+      /* Masquage accessible du formulaire entier */
+      .is-hidden {
+        display: none;
+      }
+
+      /* Style des deux listes */
+      .filter-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px 0;
+      }
+
+      .filter-list li {
+        margin: 8px 0;
+      }
+
+      .section-title {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+
+      .list-option {
+        padding-left: 15px;
+      }
+
+      button {
+        padding: 6px 12px;
+        cursor: pointer;
+        margin-bottom: 12px;
+      }
+
+      .filtre_cat{
+        list-style: none;
+      }
+
+      .filtre-sport{
+        list-style: none;
+      }
+      .filtre-prix{
+        list-style: none;
+      }
+      .filtre-couleur{
+        list-style: none;
+      }
+      .filtre-pointure{
+        list-style: none;
+      }

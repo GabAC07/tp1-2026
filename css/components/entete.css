@@ -10,7 +10,7 @@ ol {
     border: none;
 }
 
-.icone_panier{
+.icone_panier {
     margin-bottom: -3px;
 }
 
@@ -21,8 +21,38 @@ ol {
 
 .filtre {
     list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.trier{
+
+}
+
+.trier_par{
+
+}
+.masquer{
+    
+}
+
+.titre_categorie {
+   position: relative;
+   left: 40px;
+}
+
+.produit{
+position: relative;
+left: 40px;
+bottom: 30px;
 }
 
 .triage {
     align-items: flex-end;
+}
+
+.barre-recherche_champ {
+    border-radius: 180px;
+    border: none;
+    align-items: center;
 }
