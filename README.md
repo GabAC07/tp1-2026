@@ -41,6 +41,7 @@ Les utilisateurs doivent être capables de :
 - **JavaScript Vanille** – Script épuré (syntaxe `let` et fonctions classiques pour débutant) axé sur l'accessibilité ARIA.
 
 ### Ce que j'ai appris
+J'ai appris
 
 ### Développement continu
 
