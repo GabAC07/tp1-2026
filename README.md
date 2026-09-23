@@ -41,10 +41,10 @@ Les utilisateurs doivent être capables de :
 - **JavaScript Vanille** – Script épuré (syntaxe `let` et fonctions classiques pour débutant) axé sur l'accessibilité ARIA.
 
 ### Ce que j'ai appris
-J'ai appris
+J'ai appris même si une page html semble bien faite à première vue ont peut encore améliorer des choses et détails pour le rendre encore mieux. Aussi je ne savais pas comment ajouter un fil d'ariane dans ma page ensuite, mettre le script de js d'un bouton pour masquer/afficher directement dans le html.
 
 ### Développement continu
 
-Pour mes prochains projets, je souhaite approfondir :
+Pour mes prochains projets, je souhaite approfondir : Pour mes prochains projets, je souhaite approfondir : Mon niveau de css en général même si je comprends cela relativement bien il ya quelques petites choses qui me causent problèmes et avoir une meilleure autonomie pour les réaliser. À chaques projets je veux prendre l"habitude de tout le temps avoir le meilleurs formatage de html et m'assurer de sa conformité.
 
 ## Auteur
