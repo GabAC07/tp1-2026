@@ -28,7 +28,7 @@ Les utilisateurs doivent être capables de :
 
 ### Liens
 
-- URL de la solution : [Lien vers mon dépôt GitHub](https://github.com)
+- URL de la solution : [Lien vers mon dépôt GitHub](https://github.com/GabAC07/tp1-2026)
 - URL du site en direct : [Lien vers GitHub Pages](https://github.io)
 
 ## Mon Processus
