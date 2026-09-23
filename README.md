@@ -48,3 +48,4 @@ J'ai appris même si une page html semble bien faite à première vue ont peut e
 Pour mes prochains projets, je souhaite approfondir : Pour mes prochains projets, je souhaite approfondir : Mon niveau de css en général même si je comprends cela relativement bien il ya quelques petites choses qui me causent problèmes et avoir une meilleure autonomie pour les réaliser. À chaques projets je veux prendre l"habitude de tout le temps avoir le meilleurs formatage de html et m'assurer de sa conformité.
 
 ## Auteur
+Gabriel Parent
